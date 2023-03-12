@@ -1,0 +1,12 @@
+./Server/node_modules
+./Server/public
+./Client/node_modules
+./Server/Logs
+./Server/.env
+/Server/build
+./Client/.env
+/Server/public
+/Client/build
+Logs
+/Production_Bundles
+/Versions

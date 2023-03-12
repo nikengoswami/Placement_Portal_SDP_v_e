@@ -1,0 +1,21 @@
+{
+  "name": "placement_portal_sdp",
+  "version": "1.0.0",
+  "description": "A placement portal for the students of Dharmsinh desai university\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[U",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd Client&&npm i&&npm run build&&cd ..&&cd Server&&npm i&&node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix Client && npm run build  --prefix Client && npm install --prefix Server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projectsddu/Placement_Portal_SDP.git"
+  },
+  "author": "Jenil_Keval_Rikin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/projectsddu/Placement_Portal_SDP/issues"
+  },
+  "homepage": "https://github.com/projectsddu/Placement_Portal_SDP#readme"
+}

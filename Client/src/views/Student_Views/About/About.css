@@ -1,0 +1,106 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Dela+Gothic+One&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=M+PLUS+Rounded+1c&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+
+.CardDiv{
+    /* box-shadow:   5px 10px red; */
+    border-radius: 15px;
+    width: 100%;
+    padding: 5%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    /* margin: 100px; */
+    /* background-color: ; */
+    /* display: flex; */
+}
+.CardDiv:hover{
+    /* transform: scale(33);
+     */
+     transform: translateY(-1%);
+     opacity: 1;
+     background-color: #f8f7f7;
+     
+     
+}
+.CardDiv:hover .CardImageSrc{
+    transform: scale(1.2);
+}
+
+
+   
+.CardHeader{
+    display: flex;
+    justify-content: center;
+}
+.CardContent{
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+}
+.socialSVG{
+    /* margin-top: 5%; */
+    width: 12%;
+    height: 12%;
+}
+.CardSocial{
+      word-wrap: normal;  
+    display: flex;
+    justify-content: space-evenly;
+}
+.CardHeaderText{
+    margin-top:10%;
+    font-size: 1.8rem;
+}
+.CardContentPara{
+    color:rgb(126, 126, 126);
+    font-size: 1.05rem;
+}
+.CardImage{
+    
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+}
+.CardImageSrc{
+    object-fit: cover;
+    width: 13em;
+    height: 13em;
+    border-radius: 50%;
+    transition: 1s ease;
+     
+
+    /* border: 1px solid black; */
+}
+.CardBottom{
+    font-size: 1rem;
+    margin-top:3% ;
+    display: flex;
+    justify-content: center;
+}
+
+.AboutTitle
+{
+    line-height: 2.5rem;
+    font-family: 'Arvo', serif;
+    /* font-family: 'Arvo', serif; */
+    /* font-family: 'Dela Gothic One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 2rem; */
+    /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+    /* font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem; */
+    color:rgb(65, 61, 61);
+
+
+    text-align: center;
+}
